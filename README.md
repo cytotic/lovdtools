@@ -1,4 +1,4 @@
 LOVDTools
 =========
 
-An API client for interacting with the Global shared LOVD instance.
+An API client for the Global–shared LOVD instance.
