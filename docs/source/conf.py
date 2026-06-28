@@ -9,8 +9,8 @@ sys.path.insert(0, os.path.abspath('../../src'))
 # -- Project information -----------------------------------------------------
 
 project = "LOVDTools 0.1.0"
-copyright = "2025, Caleb Rice"
-author = "Caleb Rice"
+copyright = "2025, cytotic"
+author = "cytotic"
 release = "0.1.0-dev"
 
 # -- General configuration ---------------------------------------------------

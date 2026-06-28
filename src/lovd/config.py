@@ -29,7 +29,7 @@ def load_acquisition_config() -> dict:
 
     Returns
     -------
-    A ``YAMLObject`` representation of the repository's ``acquisition.yaml``
+    A dictionary representation of the repository's ``acquisition.yaml``
     configuration file.
 
     """

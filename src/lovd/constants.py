@@ -29,7 +29,7 @@ PathLike: TypeAlias = os.PathLike
 
 # ─── logger setup ───────────────────────────────────────────────────────────────── ✦ ─
 #
-LOVDTOOLS_LOG_PATH: Path = user_log_path(__package__, "Caleb Rice", ensure_exists=True)
+LOVDTOOLS_LOG_PATH: Path = user_log_path(__package__, "cytotic", ensure_exists=True)
 logger = logging.getLogger(__name__)
 logging.basicConfig(
     filename=LOVDTOOLS_LOG_PATH / "lovdtools.log",

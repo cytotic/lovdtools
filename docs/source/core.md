@@ -28,7 +28,7 @@ from lovd.constants import LOVDTOOLS_DATA_PATH
 ## Package Information
 
 - **Version**: 0.1.0-dev
-- **Author**: Caleb Rice
+- **Author**: cytotic
 - **Repository**: [cytotic/lovdtools](https://github.com/cytotic/lovdtools.git)
 
 ## API Reference

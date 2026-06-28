@@ -24,7 +24,12 @@ import requests
 import yaml
 from dotenv import load_dotenv
 
-from lovd.constants import EMAIL, TARGET_GENE_SYMBOLS, USER_AGENT_STRING
+from lovd.constants import (
+    ACQUISITION_CONFIG_PATH,
+    EMAIL,
+    TARGET_GENE_SYMBOLS,
+    USER_AGENT_STRING
+)
 
 # ─── logger setup ──────────────────────────────────────────────────────────── ✦ ─
 #
@@ -99,7 +104,8 @@ def load_acquisition_config(config_path: PathLike | None = None) -> dict[str, An
     if config_path:
         config_paths_to_try.append(Path(config_path))
     else:
-        # First, look in the current working directory.
+        # First, look in the relevant user config directory.
+        config_paths_to_try.append(ACQUISITION_CONFIG_PATH)
         config_paths_to_try.append(Path("acquisition.yaml"))
         config_paths_to_try.append(Path("acquisition.yml"))
 
