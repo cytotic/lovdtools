@@ -17,12 +17,12 @@ from .config import options
 from .constants import ACQUISITION_CONFIG_PATH, LOVDTOOLS_VERSION
 
 
-# : API client initialization
+# ─── API client initialization ──────────────────────────────────────────────────── ✦ ─
 #
 client = LOVDClient()
 
 
-# : command-line interface
+# ─── command-line interface ─────────────────────────────────────────────────────── ✦ ─
 #
 @click.group(invoke_without_command=True)
 @click.option(

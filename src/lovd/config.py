@@ -12,7 +12,7 @@ and surfaces the ``options`` dictionary object.
 import yaml
 from platformdirs import user_config_path
 
-# : constants
+# ─── constants ──────────────────────────────────────────────────────────────────── ✦ ─
 #
 ACQUISITION_CONFIG_PATH = user_config_path(
     __package__,
@@ -57,5 +57,5 @@ def load_acquisition_config() -> dict:
             return data
 
 
-# : configuration interface for the API client
+# ─── configuration interface for the API client ─────────────────────────────────── ✦ ─
 options = load_acquisition_config()

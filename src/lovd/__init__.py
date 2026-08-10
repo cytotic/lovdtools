@@ -33,14 +33,14 @@ from .constants import (
 )
 
 
-# : package metadata
+# ─── package metadata ───────────────────────────────────────────────────────────── ✦ ─
 __author__ = "Caleb R."
 __email__ = "cytotic@protonmail.com"
 __version__ = "0.1.0-dev29"
 
 
 __all__ = [
-    # : constants
+    # ─── constants ────────────────────────────────────────────────────────────────────
     "ACQUISITION_CONFIG_PATH",
     "EMAIL",
     "LOVDTOOLS_CACHE_PATH",
@@ -54,18 +54,18 @@ __all__ = [
     "NCBI_EMAIL",
     "TARGET_GENE_SYMBOLS",
     "USER_AGENT_STRING",
-    # : modules
+    # ─── modules ──────────────────────────────────────────────────────────────────────
     "cli",
     "client",
     "config",
     "constants",
-    # : classes
+    # ─── classes ──────────────────────────────────────────────────────────────────────
     "LOVDClient",
-    # : functions
+    # ─── functions ────────────────────────────────────────────────────────────────────
     "get_variants_from_config",
     "get_variants",
     "load_acquisition_config",
     "variants_to_dataframe",
-    # : objects
+    # ─── objects ──────────────────────────────────────────────────────────────────────
     "options",
 ]
